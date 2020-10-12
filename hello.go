@@ -52,6 +52,14 @@ func exibeMenu() {
 
 func iniciarMonitoramento() {
 	fmt.Println("Monitorando...")
+
+	sites := []string{"http://random-status-code.herokuapp.com/",
+		"https://compras.empro.com.br/",
+		"https://www.empro.com.br/",
+		"https://www.riopreto.sp.gov.br/"}
+
+	fmt.Println(len(sites), "itens:", sites)
+
 	site := "http://random-status-code.herokuapp.com/"
 	resp, _ := http.Get(site)
 
