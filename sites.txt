@@ -1,0 +1,5 @@
+http://random-status-code.herokuapp.com/
+https://compras.empro.com.br/
+https://www.empro.com.br/
+https://www.riopreto.sp.gov.br/
+https://gestao.riopreto.sp.gov.br/
